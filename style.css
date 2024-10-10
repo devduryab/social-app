@@ -383,8 +383,7 @@ body{
     }
     .socialsSection{
         height: 40%;
-        margin-top: 7rem;
-        margin-left: 4rem;
+        margin: auto;
     }
 
     .socialbuttons{
