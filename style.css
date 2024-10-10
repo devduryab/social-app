@@ -330,17 +330,8 @@ body{
 .linkdin{
     margin-bottom: 0;
 }
-.signatureSection{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.signatureSection img{
-    height: 50%;
-    filter: invert(1);
-}
+
+
 /* responsive code below*/
 @media screen and (max-width:1920px) {
     html {
@@ -392,6 +383,8 @@ body{
     }
     .socialsSection{
         height: 40%;
+        margin-top: 7rem;
+        margin-left: 8rem;
     }
 
     .socialbuttons{
@@ -402,11 +395,6 @@ body{
     }
     .socialbuttons p{
         font-size: 2.1rem;
-    }
-    
-    .signatureSection img{
-        height: 37%;
-        filter: invert(1);
     }
 
 }
@@ -428,5 +416,4 @@ body{
     }
 }
 
-/* responsive code above */
 
